@@ -1,0 +1,471 @@
+/* Estilos Gerais */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  font-family:serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+.btn{
+  border: 3px solid #011126;
+  padding: 10px 46px;
+  color: #011126;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+.btn:hover{
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-black:hover{
+  color:#c0bbbb;
+  border-color:#c0bbbb ;
+  
+}
+
+.subtitulo{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color:black ;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: rgb(0, 0, 0);
+  margin: 0 auto;
+  margin: 8px auto;
+}
+
+/* Header */
+.header_menu ul li a.menu-ativo{
+  color:#4C5A75;
+}
+
+/* Menu */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #011126;
+  padding: 10px 0;
+  height: 70px;
+  /* Posicionar o header em cima  */
+  z-index: 10;
+}
+
+/* Menu a direira */
+.header_menu {
+  text-align: right;
+  margin-top: 15px;
+}
+
+/* Menu a direira estilo */
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: -8px;
+}
+
+.header_menu ul li a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.header_menu ul li a:hover {
+  color: #c0bbbb;
+}
+
+/* Introdurção */
+.intro{
+  width: 100%;
+  height: 380px;
+  background: url("../img/Intro.png") no-repeat center;
+  background-position:top;
+  background-size: cover;
+  margin-top: 60px;
+  padding: 80px;
+
+}
+
+.intro h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login-logo{
+  position: relative; 
+  justify-content: center; 
+  align-items: center;
+}
+
+/* citação na intro */
+.quote-externo{
+  max-width: 440px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quote-externo p{
+  font-style: italic;
+}
+
+.quote-externo p:before{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0 auto;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo p:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0 auto;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.btn-intro{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 160px;
+}
+
+/* Introdução interna */
+.intro-interna{ 
+  width: 100%;
+  margin-top:70px;
+  height: 160px;
+  background-color: #141F3C;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+} 
+
+.intro-interna h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intro-interna h1:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0 auto;
+  margin: 6px auto 10px auto;
+  }
+
+/* LISTA EVENTOS */
+  .eventos{
+    padding: 60px 0;
+}
+
+  .eventos_lista li{
+    background:#E9E9E9 ;
+}
+
+  .eventos_lista li h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .0.5em;
+    margin-top: 20px;
+}
+
+  .eventos_lista li h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 0 auto;
+    margin: 2px auto 10px auto;
+}
+
+  .eventos_lista li p{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .eventos-icon{
+    background: #fff;
+    border: 1px solid #E9E9E9;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+  }
+
+  .eventos-icon img{
+    margin: 0 auto;
+  }
+
+  .call{
+    padding-top: 40px;
+    text-align: center;
+    /* quebra a section */
+    clear: both; 
+  } 
+
+  .call p {
+    margin-bottom: 20px;
+  }
+
+  /* CULTOS */
+  .cultos{
+    width: 100%;
+    background: #E9E9E9;
+    padding: 40px 0;
+  }
+
+  .cultos_lista li{
+    margin-bottom: 20px;
+  }
+
+  .cultos .call p{
+    color:#4C5A75
+  }
+
+  /* PILARES */
+  .pilares{
+    padding: 60px 0;
+  }
+
+  .pilares img{
+    margin: 0 auto;
+  }
+
+.pilares_lista li{
+  text-align: center;
+  padding: 0 70px;
+}
+
+.pilares_lista li h3{
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .0.5em;
+  margin-top: 20px;
+}
+
+.pilares_lista li h3:after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 0 auto;
+  margin: 6px auto;
+  }
+
+  /* FOOTER IMG*/
+  .quebra{
+    width: 100%;
+    height: 200px;
+    background: url("../img/biblia.png") no-repeat center;
+    background-color: #929191;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: -10px;
+    background-size: cover;
+  }
+
+  .quebra .quote-externo{
+    max-width: 400px;
+  }
+
+  /* FOOTER */
+  .footer{
+    width: 100%;
+    background:#141F3C;
+    color: #fff;
+    padding: 20px 20px;
+  }
+
+  .footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+  }
+
+  .footer h3:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0 12px 0;
+  }
+
+  .footer_historia{
+    padding-right: 40px;
+  }
+
+  .footer_contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .footer_contato ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer_contato ul li a:hover{
+    text-decoration: none;
+    color: #c0bbbb;
+  }
+
+  .footer_redes ul li{
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+  .footer_redes ul li a{
+    border: 3px solid #141F3C;
+    display: block;
+    padding: 6px 6px;
+  }
+
+  .footer_redes ul li a:hover{
+    border: #4C5A75;
+  }
+
+  .copy{
+    width: 100%;
+    height: 63px;
+    background: #000;
+    padding: 20px 0;
+    color: #fff;
+    
+  }
+
+  /* JS */
+  .js [data-slide] {
+    position: relative; 
+  }
+
+  .js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+
+  .js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }
+
+  .js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #1d1d1d;
+    text-indent: -100px;
+    overflow: hidden;
+  }
+
+  .js [data-slide-nav] > button.active {
+    background: #52628d;
+  }
+
+  
+  /*animação - index */
+
+  .js [data-anime] {
+    opacity: 0;
+  }
+
+  .js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  
+  .js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, transform .8s;
+  }
+
+  /* ESCONDE CAMPO TELA CONTATOS */
+  .invisivel{
+      visibility: hidden;
+      position: absolute;
+      height: 0px;
+  }
+
+  /* ESTILIZA MENSAGEM DE SUCESSO */
+  #form-sucesso{
+    color: #31aa39;
+  }
+  #form-erro{
+    color: #f64540;
+  }

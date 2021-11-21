@@ -1,0 +1,38 @@
+.dados{
+  margin: 20px 0px 5px 0;
+}
+
+.dados-banco{
+  margin-top: 60px;
+}
+
+.descricao{
+  line-height: 24px;
+}
+
+.pix{
+  margin: 40px 0px 5px 0px;
+}
+
+.pix img{
+  margin-left: -13px;
+}
+
+.observacao{
+  margin: 40px 0 40px 0;
+}
+
+.icons{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icons img{
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.footer{
+  margin-top: 60px;
+}

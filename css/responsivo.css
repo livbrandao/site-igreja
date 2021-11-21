@@ -1,0 +1,335 @@
+/* ESTILO PARA TABLETS */
+@media only screen and (min-width: 780px) and (max-width: 979px){
+
+  /* INTRO */
+  .intro{
+    height: 307px;
+    margin-top: 65px;
+    padding: 26px;
+  }
+  .intro h1{
+    font-size: 38px;
+  }
+  .eventos_lista li{
+    height: 623;
+    height: 317px;
+  }
+
+  /* EVENTOS */
+  .eventos{
+    padding: 40px 0;
+  }
+
+  /* PILARES */
+  .pilares img{
+    width:512px;
+  }
+
+  .pilares li{
+    padding: 0 10px;
+  }
+
+  /* SOBRE */
+  .missao_sobre p{
+    padding-right: 7px;
+  }
+
+  /* EVENTOS */
+  .eventos-item h2{
+    font-size:30px;
+    top: -160px;
+    margin-bottom: -70px;
+  }
+
+  .foto-evento{
+    padding: 7px 0;
+    width:215px;
+    margin-left: 0px;
+  }
+  .foto-evento-2{
+    margin-top: -35px;
+    padding-left: 7px;
+  }
+
+  .foto-evento-4{
+    margin-top: -42px;
+    padding: 7px 0;
+    width:356px;
+    margin-left: 0px;
+  }
+
+  .evento-info{
+    margin-top: -35px;
+    width: 349px;
+  }
+  
+  .evento-info p {
+    font-size: 16px;
+    padding: 11px 20px;
+    height: 219px;
+  }
+  .dados-evento span{
+    padding: 5px 12px;
+    line-height: 21px;
+  }
+
+  /* CULTOS */
+  .agenda p{
+    text-align: center;
+  }
+  
+  .mais{
+    margin: 25px 0;
+  }
+
+  /* FOOTER */
+  .footer_redes ul li a{
+    padding: 3px;
+  }
+
+  .footer h3{
+    font-size: 16px;
+  }
+}
+/* ----------------------------------------------------- */
+/* ESTILO PARA MOBILE */
+@media only screen and (max-width: 779px){
+  /* HEADER */
+  .header{
+    position: relative;
+    padding-bottom: 0px;
+    height: 165px;
+    margin: 0px;
+  }
+  .header img{
+    margin: 0 auto;
+  }
+
+  .header_menu{
+    text-align: center;
+    margin-top: 0px;
+    
+  }
+  .header_menu ul li{
+    margin: 0;
+  }
+  .header_menu ul li a{
+    display: block;
+    float: left;
+    padding: 4px 10px;
+  }
+  .header_menu ul li a img{
+    padding: 0 61px;
+  }
+
+  /* INTRO */
+  .intro{
+    height: 315px;
+    margin-top: -5px;
+    background: url("../img/intro-mobile.png") no-repeat;
+    padding: 0px;
+    padding-top: 20px;
+  }
+  .intro h1{
+    font-size: 28px;
+  }
+
+  .intro-interna{ 
+    margin-top:0px;
+    height: 135px;;
+  } 
+  .intro-interna h1{
+    font-size: 24px;
+  }
+
+  .login-logo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+  .header .login-logo img{
+    margin: 0px;
+  }
+
+  /* EVENTOS */
+  .eventos{
+    padding: 35px 0;
+  }
+
+  .form-evento{
+    padding: 0 0;
+  }
+
+  .formulario{
+    height: 100%;
+  }
+  .dados-evento{
+    margin-top: 55px;
+  }
+
+  .dados-evento span{
+    font-size: 11px;
+    padding: 4px 0;
+    line-height: 20px;
+    margin-right: 21px;
+  }
+  .dados-evento ul li {
+    width: 250px;
+    font-size: 10px;
+    line-height: 11px;
+    padding: 2px 0px;
+  }
+
+  .eventos-item h2{
+    top: -100px;
+    font-size: 18px;
+    width: 280px;
+  }
+  .eventos-item img{
+    width: 280px;
+  }
+
+  .foto-evento{
+    width: 275px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+  .foto-evento-2{
+    margin-top: 20px;
+    padding-left: 7px;
+    width: 275px;
+  }
+
+  .foto-evento-4{
+    padding: 7px 0;
+    width:270px;
+    margin-left: 5px;
+    margin-top: -13px;
+  }
+
+  .evento-info{
+    margin-left: 5px;
+    width: 270px;
+    height: 270px;
+  }
+  
+  .evento-info p {
+    font-size: 16px;
+    padding: 11px 20px;
+    height: 219px;
+  }
+
+
+  /* PILARES */
+  .pilares img{
+    visibility: hidden;
+  }
+
+  .pilares ul{
+    margin-top: -100px;
+  }
+
+  .pilares_lista li h3:after{
+    content: none;
+    }
+  
+  /* botao */
+  .btn{
+    padding: 7px 9px;
+    font-size: 12px;
+  }
+
+  .btn .btn-intro{
+    padding: 7px 9px;
+  }
+  .btn-intro{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  
+  .call{
+    padding-top: 20px;
+  }
+
+  /* SOBRE */
+  .missao_sobre{
+    padding-top: 40px;
+  }
+  .missao_sobre p{
+    font-size: 14px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .subtitulo-interno{
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  }
+  .subtitulo-interno:after{
+    width: 45px;
+    margin: 0 auto;
+  }
+  .missao_sobre .container img{
+      width: 768px;
+      margin: 2px;
+      padding: 0px;
+      position: relative;
+    }
+
+    
+  /* CULTOS */
+  .agenda p{
+    text-align: center;
+  }
+  
+  .mais a img{
+    margin: 0 auto;
+  }
+
+  .titulo input{
+    text-align: center;
+  }
+
+  .descricao input{
+    text-align: center;
+  }
+
+  .redes {
+    display: flex;
+    margin-right: 125px;
+  }
+
+  .redes img{
+    width: 30px;
+  }
+
+  .contato_mapa{
+    margin-top: -40px;
+  }
+
+  /* COLABORE */
+  .pix{
+    text-align: center;
+  }
+
+  .pix img{
+    margin: 0 auto;
+  }
+
+  .observacao{
+    text-align: center;
+  }
+
+  .icons{
+    margin-top: 20px;
+  }
+  .icons p{
+    font-size: 11px;
+  }
+
+  .dados-banco{
+    text-align: center;
+  }
+}

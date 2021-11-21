@@ -1,0 +1,50 @@
+.info-input input{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+.agenda {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.titulo{
+  font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+
+.titulo input{
+  font-weight: bold;
+	font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.descricao{
+	font-size: 16px;
+	line-height: 25px;
+  font-style: italic; 
+}
+
+.descricao input{
+	font-size: 16px;
+  font-style: italic; 
+}
+
+.mais{
+  margin-top: 25px;
+}
+
+.formulario{
+  background: none;
+}
+
+.formulario button{
+  margin-bottom: 60px;
+}
+
+.formulario .btn button:hover{
+  color: black;
+}
