@@ -19,5 +19,5 @@ Essas instruções permitirão que você obtenha a funcionalidade completa do pr
 
 - Lívia Toledo Brandão
 - Gabrielly Soares
-- 
+
 # Site Organização Religiosa
